@@ -15,7 +15,9 @@
     "winston": "^3.2.1",
     "@types/uuid": "^3.4.6",
     "serverless-offline": "^5.12.1",
-    "serverless-plugin-tracing": "^2.0.0"
+    "serverless-plugin-tracing": "^2.0.0",
+    "set-value": ">=2.0.1",
+    "serialize-javascript": ">=2.1.1"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.17",
