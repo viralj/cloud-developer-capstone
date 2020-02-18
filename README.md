@@ -4,7 +4,13 @@ To implement this project, you need to implement a simple TODO application using
 
 # Functionality of the application
 
-This application will allow creating/removing/updating/fetching TODO items. Each TODO item can optionally have an attachment image. Each user only has access to TODO items that he/she has created.
+This application allows
+ - Creating/removing/updating/fetching TODO items.
+ - Each TODO item can optionally have an attachment image.
+ - Each user only has access to TODO items that he/she has created through Auth0 authorisation.
+ - AWS x-ray is implemented to trace the system
+ - Winston is implemented for logging
+ - The system can be tested offline by emulating DynamoDB and serverless
 
 # TODO items
 
